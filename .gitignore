@@ -1,0 +1,11 @@
+*/*.pdb
+*/*/target/debug/build
+*/*/target/debug/deps
+*/*/target/debug/incremental
+*/*/target/debug/*.pdb
+*/*/target/debug/*.d
+*/*/target/CACHEDIR.TAG
+*/*/target/.rustc_info.json
+*/*/target/.fingerprint
+
+
