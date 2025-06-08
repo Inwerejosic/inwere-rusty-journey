@@ -1,2 +1,2 @@
-# inwere-rusty-journey
+# Inwere-rusty-journey
 My Rust Learning process tracker.
