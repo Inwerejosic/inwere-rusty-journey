@@ -19,6 +19,6 @@ fn main() {
     if azrs >= 2 {
         println!("I love Learning");
     } else {
-        println!("Out");
+        println!("Out of here");
     }
 }
