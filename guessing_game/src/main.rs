@@ -1,12 +1,17 @@
 use std::io;
 use std::cmp::Ordering;
-use rand::Rng;
+use rand::{Rng};
 
 
 fn main() {
-
-    let secret_number = rand::thread_rng().gen_range(1, 1001);
-
+    // Name of the program.
+    println!("Inwerejosic's Guessing Game in Rust");
+    
+    // Instantiating the random number generator.
+    let secret_number = rand::thread_rng().gen_range(1..=100);
+    
+    // Prompting the use for input
+    println!("Kinly input your guess!");
 
     // Declare a mutable String to store input
     let mut azrs = String::new();
