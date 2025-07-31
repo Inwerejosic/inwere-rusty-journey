@@ -4,6 +4,7 @@ fn main() {
     let x = x + 32;
 
     {
+        //  The inner expression
         let x = x + 24;
         println!("The value of X is:, {x}");
     }
