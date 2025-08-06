@@ -16,5 +16,9 @@ fn main() {
 
     fn print_labled_measurement(value:i32, unit_label:char){
         println!("The measurement is: {value}{unit_label}");
+        println!(" I am testing this guys,{unit_label}{value}");
     }
 }
+
+
+
