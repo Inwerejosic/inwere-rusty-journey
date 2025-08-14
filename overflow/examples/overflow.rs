@@ -10,6 +10,7 @@ fn main() {
     let x = u32::checked_add(5, 1);
     println!("Checked_add: {:?}", x);
     // u32::wrapping_add - Implicitly allow overflow
-
+    let x = u32::wrapping_add(u32::MAX, 1);
+    println!("Checked_add: {:?}", x);
 
 }
