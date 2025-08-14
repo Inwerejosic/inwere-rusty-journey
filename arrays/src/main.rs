@@ -1,4 +1,5 @@
 fn main() {
+
     let arr: [u32; 4] = [65, 21, 4, 90];
     println!("arr: {:#?}", arr);
     println!("arr: {:?}", arr);
@@ -15,7 +16,10 @@ fn main() {
     
     // Middle 4 items
     let mid = &numbs[3..7];
-    println!("The middle numbers are {:?}", mid)
+    println!("The middle numbers are {:?}", mid);
 
+    // Give all
+    let all = &numbs[..];
+    println!("The whole array is: {:?}", all);
 
 }
