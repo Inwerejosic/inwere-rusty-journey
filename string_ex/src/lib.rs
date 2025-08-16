@@ -1,10 +1,12 @@
-#![allow(unused)]
+pub fn hello() -> String {
+    "Hello Rust".to_string()
+}
 
-fn main() {
-    let msg: String = String::from("Hello Rust");
-    let msg: String = "Hello Rust".to_string();
+pub fn greet(name: &str) -> String {
+    format!("Hello {}", name)
+}
 
-    let length: usize = msg.len();
-
-    println!("The length is: {:?}", length) 
+pub fn append(mut s: String) -> String {
+    s += "!";
+    s
 }
