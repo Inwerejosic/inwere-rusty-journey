@@ -25,7 +25,7 @@ fn main() {
 
     // Option<T> = Some(T) | None
     let x: Option<i32> = Some(-1);
-    let X: Option<i32> = None;
+    let x: Option<i32> = None;
     println!("{:?}", x );
 
     // Result<T, E> = Ok(T) | Error(E)
