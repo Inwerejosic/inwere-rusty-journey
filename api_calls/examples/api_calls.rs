@@ -1,6 +1,5 @@
-//  After adding the header
-use serde_json::Value;
 use reqwest::{Client, Error};
+use serde_json::Value;
 
 /// Async function that fetches JSON with headers
 async fn async_call(url: &str) -> Result<Value, Error> {
@@ -12,9 +11,9 @@ async fn async_call(url: &str) -> Result<Value, Error> {
         // TODO: Replace with actual token if required
         // .header("Authorization", "Bearer <YOUR_TOKEN>")
         .send()
-        .await?                // Await the HTTP request
-        .json::<Value>()       // Parse as JSON
-        .await?;               // Await the parsing
+        .await? // Await the HTTP request
+        .json::<Value>() // Parse as JSON
+        .await?; // Await the parsing
 
     Ok(response)
 }
@@ -28,4 +27,3 @@ async fn main() {
         Err(err) => eprintln!("❌ Error: {}", err),
     }
 }
-
